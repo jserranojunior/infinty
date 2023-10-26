@@ -1,0 +1,5 @@
+{
+  "nuxt.isNuxtApp": false,
+  "terminal.integrated.splitCwd": "initial",
+  "terminal.integrated.tabs.title": "${task}${separator}${local}${separator}${cwdFolder}"
+}

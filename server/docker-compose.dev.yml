@@ -1,0 +1,21 @@
+version: "3"
+
+networks:
+  stack_ponte:
+    external: true
+
+services:
+  frontend_alvitre:
+    container_name: "frontend_alvitre"
+    image: webdevops/apache
+    working_dir: /app
+    volumes:
+      - "${PATHPESSOAL}/alvitre-site/front/src:/app"
+    networks:
+      - stack_ponte
+    ports:
+      - "3100:80"
+    labels:
+      - "traefik.enable=true"
+      - traefik.http.routers.frontalvitre.rule=Host(`frontalvitre.${DOMAIN}`)
+      - traefik.http.services.frontalvitre.loadbalancer.server.port=80
