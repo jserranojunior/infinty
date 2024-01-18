@@ -1,18 +1,25 @@
 {
-  "name": "alvitre",
+  "name": "front",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "version": "0.2.3",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^3.1.2",
-    "astro": "^2.4.5",
+    "daysi": "^1.0.0",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "autoprefixer": "^10.4.17",
     "daisyui": "^2.51.6",
-    "tailwindcss": "^3.3.2"
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
   }
 }
