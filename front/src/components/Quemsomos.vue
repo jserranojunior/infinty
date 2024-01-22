@@ -1,14 +1,14 @@
 <template>
     <section id="quemsomos" class="bg-black">
-  <div class="py-20 px-44">
+  <div class="py-12 lg:py-20 px-44">
     <div class="flex justify-center">
       <div class="w-full">
-        <h2 class="text-5xl text-center">Quem somos</h2>
+        <h2 class="text-3xl lg:text-5xl text-center">Quem somos</h2>
       </div>
     </div>
 
     <div class="flex">
-      <div class="w-full my-20">
+      <div class="w-full my-6 lg:my-20">
         <p class="text-2xl my-6">
           Compreendemos a sua busca por excelência digital, e a Infinity
           Business é a resposta. Somos uma equipe altamente competente e prontos

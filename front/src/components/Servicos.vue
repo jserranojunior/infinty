@@ -1,14 +1,14 @@
 <template>
     <section id="servicos" class="wall-servicos bg-black bg-opacity-30 py-12 px-40">
-  <div class="flex justify-center">
+  <div class="flex flex-wrap justify-center">
     <div class="w-full">
-      <h2 class="text-5xl text-center">Serviços / Produtos</h2>
+      <h2 class="text-3xl lg:text-5xl text-center">Serviços / Produtos</h2>
     </div>
   </div>
-  <div class="flex py-20">
-    <div class="w-1/3">
+  <div class="flex flex-wrap mt-12 lg:mt-0 lg:pt-20 2xl:w-2/3 3xl:w-1/2 mx-auto">
+    <div class="w-full lg:w-1/3 my-1 ">
       <div
-        class="card card-compact mx-auto w-96 shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
+        class="card card-compact mx-auto w-full shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
       >
         <div class="card-body">
           <i class="text-6xl py-3 text-center fa-solid fa-bullseye"></i>
@@ -20,9 +20,9 @@
         </div>
       </div>
     </div>
-    <div class="w-1/3">
+    <div class="w-full lg:w-1/3 my-1 px-1">
       <div
-        class="card card-compact mx-auto w-96 shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
+        class="card card-compact mx-auto w-full shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
       >
         <div class="card-body">
           <i class="text-6xl py-3 text-center fa-solid fa-rocket"></i>
@@ -34,9 +34,9 @@
         </div>
       </div>
     </div>
-    <div class="w-1/3">
+    <div class="w-full lg:w-1/3 my-1">
       <div
-        class="card card-compact mx-auto w-96 shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
+        class="card card-compact mx-auto w-full shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
       >
         <div class="card-body">
           <i class="text-6xl py-3 text-center fa-solid fa-laptop-code"></i>
@@ -50,10 +50,10 @@
     </div>
   </div>
 
-  <div class="flex py-20">
-    <div class="w-1/3">
+  <div class="flex flex-wrap 2xl:w-2/3 3xl:w-1/2 mx-auto">
+    <div class="w-full lg:w-1/3 my-1">
       <div
-        class="card card-compact mx-auto w-96 shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
+        class="card card-compact mx-auto w-full shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
       >
         <div class="card-body">
           <img
@@ -72,9 +72,9 @@
         </div>
       </div>
     </div>
-    <div class="w-1/3">
+    <div class="w-full lg:w-1/3 my-1 px-1">
       <div
-        class="card card-compact mx-auto w-96 shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
+        class="card card-compact mx-auto w-full shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
       >
         <div class="card-body">
           <i class="text-6xl py-3 text-center fa-solid fa-clapperboard"></i>
@@ -86,9 +86,9 @@
         </div>
       </div>
     </div>
-    <div class="w-1/3">
+    <div class="w-full lg:w-1/3 my-1">
       <div
-        class="card card-compact mx-auto w-96 shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
+        class="card card-compact mx-auto w-full shadow-xl border bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg"
       >
         <div class="card-body">
           <i class="text-6xl py-3 text-center fa-regular fa-file-zipper"></i>
